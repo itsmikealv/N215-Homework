@@ -1,0 +1,38 @@
+.promo-image-box {
+  width: $promo-tour-image-width;
+  height: $promo-tour-image-height;
+//   background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: $site-white-text-color;
+  h1 {
+    font-size: 60px;
+    font-family: 'ProximaNovaThin';
+    font-style: italic;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  .promo-button {
+    height: 40px;
+    width: 133px;
+    background-color: $accent-color;
+    border-radius: 20px;
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans';
+
+    a {
+      text-decoration: none;
+      color: $site-white-text-color;
+      font-size: 15px;
+    }
+  }
+}
