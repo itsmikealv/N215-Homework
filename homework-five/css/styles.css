@@ -1,0 +1,518 @@
+.promo-image-box {
+  width: 236px;
+  height: 304px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "ProximaExtraCondensed";
+}
+.promo-image-box .place {
+  font-size: 60px;
+  font-style: italic;
+}
+.promo-image-box p {
+  font-size: 30px;
+}
+.promo-image-box .promo-button {
+  height: 40px;
+  width: 133px;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans";
+}
+.promo-image-box .promo-button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+footer {
+  height: 100px;
+  background-color: #79ADDC;
+  color: #ffffff;
+  font-family: "Gill Sans";
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+footer .footer-content .footer-copyright {
+  margin: 0px;
+}
+footer .footer-content .footer-copyright p {
+  font-size: 12px;
+  margin: 0 auto;
+}
+footer .footer-content .footer-socials {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .footer-content .footer-socials .fa-brands {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 980px) {
+  .footer-content {
+    margin: 20px;
+  }
+}
+nav {
+  width: 980px;
+  height: 92px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ffffff;
+  font-family: "Gill Sans";
+  font-size: 15px;
+}
+nav .logo {
+  height: 38px;
+  width: 98px;
+}
+nav .nav-buttons {
+  display: flex;
+  align-items: center;
+}
+nav .nav-buttons a {
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+}
+nav .nav-buttons .nav-pipe {
+  height: 22px;
+  width: 0px;
+  border: 1px solid #79ADDC;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-dark {
+  border-bottom: 2px solid #000000;
+}
+.nav-dark .nav-buttons a {
+  color: #000000;
+}
+
+@media screen and (max-width: 980px) {
+  nav {
+    flex-direction: column;
+    margin: 10px;
+    max-width: 90%;
+  }
+  nav .nav-buttons {
+    margin-bottom: 10px;
+  }
+  nav .nav-buttons .nav-pipe {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+.home .hero {
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.home .hero .callout {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home .hero .callout h1 {
+  font-family: "ProximaExtraCondensed";
+  font-style: italic;
+  font-size: 60px;
+  font-weight: 100;
+  margin-bottom: 26px;
+  text-transform: uppercase;
+}
+.home .hero .callout p {
+  font-family: "Gill Sans";
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.home .hero .callout .callout-button {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans";
+  text-transform: uppercase;
+}
+.home .hero .callout .callout-button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+@media screen and (max-width: 980px) {
+  .home .hero .callout {
+    margin: 20px;
+  }
+}
+.home .home-content {
+  max-width: 818px;
+  margin: -43px auto 0 auto;
+  min-height: 200px;
+}
+.home .home-content .promos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.home .home-content .promos .promo-image-box-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home .home-content .promos .promo-image-box-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home .home-content .promos .promo-image-box-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 980px) {
+  .home .home-content .promos .promo-image-box {
+    width: 100%;
+    margin: 20px 15px 15px 15px;
+  }
+}
+.home .home-content .booking-form-holder input:focus {
+  outline: none;
+}
+.home .home-content .booking-form-holder {
+  margin-top: 50px;
+  padding-bottom: 300px;
+  font-family: "GillSansLight";
+}
+.home .home-content .booking-form-holder .booking-form-header {
+  font-family: "ProximaExtraCondensed";
+  font-size: 60px;
+}
+.home .home-content .booking-form-holder .two-col-text-input {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.home .home-content .booking-form-holder .two-col-text-input input {
+  height: 58px;
+  padding: 0 20px;
+}
+.home .home-content .booking-form-holder .two-col-text-input .input1 {
+  width: 41%;
+}
+.home .home-content .booking-form-holder .two-col-text-input .input2 {
+  width: 57%;
+}
+.home .home-content .booking-form-holder .date-row {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.home .home-content .booking-form-holder .date-row p {
+  font-size: 18px;
+  margin: 0px;
+}
+.home .home-content .booking-form-holder .date-row input {
+  width: 86%;
+  height: 58px;
+  padding: 0 20px;
+}
+.home .home-content .booking-form-holder .date-row .cal-icon1 {
+  position: absolute;
+  font-size: 20px;
+  top: 20px;
+  left: 95%;
+}
+.home .home-content .booking-form-holder .date-row .cal-icon2 {
+  position: absolute;
+  font-size: 20px;
+  top: 20px;
+  left: 95%;
+}
+.home .home-content .booking-form-holder .occupancy-row {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.home .home-content .booking-form-holder .occupancy-row p {
+  font-size: 18px;
+  margin: 0px;
+}
+.home .home-content .booking-form-holder .occupancy-row input {
+  width: 12%;
+  height: 58px;
+  padding: 0 20px;
+}
+.home .home-content .booking-form-holder .occupancy-row .fa-sharp1 {
+  position: absolute;
+  font-size: 20px;
+  top: 20px;
+  left: 20%;
+}
+.home .home-content .booking-form-holder .occupancy-row .fa-sharp2 {
+  position: absolute;
+  font-size: 20px;
+  top: 20px;
+  left: 58%;
+}
+.home .home-content .booking-form-holder .occupancy-row .fa-sharp3 {
+  position: absolute;
+  font-size: 20px;
+  top: 20px;
+  left: 95%;
+}
+.home .home-content .booking-form-holder .booking-form-message {
+  margin-bottom: 37px;
+}
+.home .home-content .booking-form-holder .booking-form-message input {
+  width: 100%;
+  height: 200px;
+}
+.home .home-content .booking-form-holder .booking-form-button {
+  width: 100%;
+  height: 60px;
+  background-color: #79ADDC;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.home .home-content .booking-form-holder .booking-form-button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Gill Sans";
+}
+@media screen and (max-width: 980px) {
+  .home .home-content .booking-form-holder {
+    margin: 20px;
+  }
+  .home .home-content .booking-form-holder .two-col-text-input {
+    flex-direction: column;
+  }
+  .home .home-content .booking-form-holder .two-col-text-input .input1, .home .home-content .booking-form-holder .two-col-text-input .input2 {
+    width: 100%;
+  }
+  .home .home-content .booking-form-holder .two-col-text-input .input1:not(.input2) {
+    margin-bottom: 20px;
+  }
+  .home .home-content .booking-form-holder .two-col-text-input .cal-icon1 {
+    top: 332px;
+    left: 90%;
+  }
+  .home .home-content .booking-form-holder .two-col-text-input .cal-icon2 {
+    top: 410px;
+    left: 90%;
+  }
+}
+
+@font-face {
+  font-family: "GillSansBold";
+  src: url(../fonts/GillSans-Bold.ttf);
+}
+@font-face {
+  font-family: "GillSansBoldItalic";
+  src: url(../fonts/GillSans-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "GillSansItalic";
+  src: url(../fonts/GillSans-Italic.ttf);
+}
+@font-face {
+  font-family: "GillSansLight";
+  src: url(../fonts/GillSans-Light.ttf);
+}
+@font-face {
+  font-family: "GillSansLightItalic";
+  src: url(../fonts/GillSans-LightItalic.ttf);
+}
+@font-face {
+  font-family: "GillSansSemiBold";
+  src: url(../fonts/GillSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: "GillSansSemiBoldItalic";
+  src: url(../fonts/GillSans-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: "GillSansUltraBold";
+  src: url(../fonts/GillSans-UltraBold.ttf);
+}
+@font-face {
+  font-family: "Gill Sans";
+  src: url(../fonts/GillSans.ttf);
+}
+@font-face {
+  font-family: "ProximaNovaReg";
+  src: url(../fonts/Proxima_Nova_Regular.ttf);
+}
+@font-face {
+  font-family: "ProximaNovaThin";
+  src: url(../fonts/Proxima-Nova-Thin.otf);
+}
+@font-face {
+  font-family: "ProximaExtraCondensed";
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.about .about-content {
+  max-width: 980px;
+  margin: 192px auto 0 auto;
+  color: #000000;
+}
+.about .about-content .about-main-text .about-header {
+  font-family: "ProximaExtraCondensed";
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 36px;
+  width: fit-content;
+  border-bottom: 2px solid #000000;
+}
+.about .about-content .about-main-text .about-header p {
+  margin-bottom: 0px;
+}
+.about .about-content .about-main-text .about-text {
+  font-family: "Gill Sans";
+  letter-spacing: 1.6px;
+}
+.about .about-content .client-quotes-container {
+  margin-top: 100px;
+  margin-bottom: 180px;
+}
+.about .about-content .client-quotes-container .client-quotes-header {
+  width: fit-content;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 37px;
+}
+.about .about-content .client-quotes-container .client-quotes-header p {
+  font-size: 40px;
+  font-family: "ProximaExtraCondensed";
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+.about .about-content .client-quotes-container .client-quote {
+  max-width: 670px;
+  width: 100%;
+  margin-bottom: 37px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.about .about-content .client-quotes-container .client-quote .client-image {
+  width: 260px;
+  height: 150px;
+}
+.about .about-content .client-quotes-container .client-quote .client-image1 {
+  background-image: url(../images/about-client-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about .about-content .client-quotes-container .client-quote .client-image2 {
+  background-image: url(../images/about-client-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about .about-content .client-quotes-container .client-quote .client-quote-text {
+  width: 385px;
+}
+.about .about-content .client-quotes-container .client-quote .client-quote-text p {
+  font-family: "GillSansItalic";
+  letter-spacing: 1.6px;
+}
+.about .about-content .client-quotes-container .client-quote .client-name {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.about .about-content .client-quotes-container .client-quote .client-name p {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "ProximaExtraCondensed";
+  letter-spacing: 2px;
+  color: #79ADDC;
+}
+
+@media screen and (max-width: 980px) {
+  .about .about-content {
+    margin: 192px 20px 0 20px;
+  }
+  .about .about-content .client-quotes-container .client-quote {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .about .about-content .client-quotes-container .client-quote .client-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .about .about-content .client-quotes-container .client-quote .client-quote-text {
+    width: 100%;
+  }
+  .about .about-content .client-quotes-container .client-quote .client-name {
+    bottom: -35px;
+  }
+}

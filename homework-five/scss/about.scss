@@ -1,0 +1,136 @@
+.about {
+  // background-color:navajowhite;
+  .about-content {
+    max-width: $about-content-max-width;
+    margin: 192px auto 0 auto;
+    // background-color: bisque;
+    color: $site-black-text-color;
+
+    .about-main-text {
+      // background-color: indianred;
+      .about-header {
+        font-family: "ProximaExtraCondensed";
+        font-size: 60px;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        // background-color: lightblue;
+        margin-bottom: 36px;
+        width: fit-content;
+        border-bottom: 2px solid $site-black-text-color;
+
+        p {
+          margin-bottom: 0px;
+        }
+      }
+
+      .about-text {
+        // background-color: lightsalmon;
+        font-family: "Gill Sans";
+        letter-spacing: 1.6px;
+      }
+    }
+
+    .client-quotes-container {
+      //   background-color: lightgreen;
+
+      margin-top: 100px;
+      margin-bottom: 180px;
+
+      .client-quotes-header {
+        // background-color: lightyellow;
+        width: fit-content;
+        border-bottom: 2px solid $site-black-text-color;
+        margin-bottom: 37px;
+
+        p {
+          font-size: 40px;
+          font-family: "ProximaExtraCondensed";
+          letter-spacing: 4px;
+          text-transform: uppercase;
+          margin-bottom: 0px;
+        }
+      }
+      .client-quote {
+        // background-color: lightcyan;
+        max-width: 670px;
+        width: 100%;
+        margin-bottom: 37px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        .client-image {
+          width: 260px;
+          height: 150px;
+        }
+
+        .client-image1 {
+          background-image: url(../images/about-client-01.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        .client-image2 {
+          background-image: url(../images/about-client-02.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+
+        .client-quote-text {
+        //   background-color: lightsteelblue;
+          width: 385px;
+
+          p {
+            font-family: "GillSansItalic";
+            letter-spacing: 1.6px;
+          }
+        }
+
+        .client-name {
+        //   background-color: lightcoral;
+          position: absolute;
+          right: 0px;
+          bottom: 0px;
+
+          p {
+            font-size: 20px;
+            text-transform: uppercase;
+            font-family: "ProximaExtraCondensed";
+            letter-spacing: 2px;
+            color: $accent-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .about {
+    .about-content {
+      margin: 192px 20px 0 20px;
+
+      .client-quotes-container {
+        .client-quote {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 60px;
+
+          .client-image {
+            width: 100%;
+            margin-bottom: 20px;
+          }
+
+          .client-quote-text {
+            width: 100%;
+          }
+
+          .client-name {
+            bottom: -35px;
+          }
+        }
+      }
+    }
+  }
+}
