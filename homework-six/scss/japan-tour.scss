@@ -1,0 +1,36 @@
+.tour-page {
+  //   background-color: olivedrab;
+
+  .tour-page-content {
+    // background-color: khaki;
+
+    .japan-tour-header {
+      background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tour-07.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .japan-page-row {
+      .japan-image1 {
+        background-image: url(../images/japan-tour-01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .japan-image2 {
+        background-image: url(../images/japan-tour-02.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .japan-image3 {
+        background-image: url(../images/japan-tour-03.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}

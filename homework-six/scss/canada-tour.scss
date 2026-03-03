@@ -1,0 +1,36 @@
+.tour-page {
+  //   background-color: olivedrab;
+
+  .tour-page-content {
+    // background-color: khaki;
+
+    .canada-tour-header {
+      background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tour-08.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .canada-page-row {
+      .canada-image1 {
+        background-image: url(../images/canada-tour-01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .canada-image2 {
+        background-image: url(../images/canada-tour-02.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .canada-image3 {
+        background-image: url(../images/canada-tour-03.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}

@@ -1,0 +1,165 @@
+.promo-image-box {
+  width: $promo-tour-image-width;
+  height: $promo-tour-image-height;
+  //   background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $site-white-text-color;
+  font-family: "ProximaExtraCondensed";
+  .place {
+    font-size: 60px;
+    font-style: italic;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  .promo-button {
+    height: 40px;
+    width: 133px;
+    background-color: $accent-color;
+    border-radius: 20px;
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gill Sans";
+    text-transform: uppercase;
+
+    a {
+      text-decoration: none;
+      color: $site-white-text-color;
+      font-size: 15px;
+    }
+  }
+}
+
+// components for tour pages |||
+//                           vvv
+
+.tour-page {
+  margin: 141px 0 0 0;
+  .tour-page-content {
+    max-width: $tours-page-content-max-width;
+    margin: 0 auto;
+    .tour-page-header {
+      width: 100%;
+      height: 413px;
+      margin-bottom: 40px;
+      position: relative;
+
+      .tour-package {
+        margin: 30px;
+        p {
+          font-size: 80px;
+          font-family: "ProximaExtraCondensed";
+          color: $site-white-text-color;
+        }
+      }
+
+      .tour-pricing {
+        position: absolute;
+        bottom: 0px;
+        right: 30px;
+        p {
+          color: $site-white-text-color;
+          font-size: 30px;
+          font-family: "ProximaExtraCondensed";
+        }
+      }
+    }
+
+    .tour-page-row {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 29px;
+
+      .country-image {
+        height: 347px;
+        width: 298px;
+      }
+    }
+
+    .day-container {
+      // background-color: darkslategray;
+      width: 100%;
+
+      .day {
+        // background-color: coral;
+        margin-bottom: 80px;
+        .day-header {
+          font-family: "ProximaExtraCondensed";
+          height: 73px;
+          // background-color: hotpink;
+          margin-bottom: 35px;
+          border-bottom: 2px solid #000;
+          width: fit-content;
+
+          p {
+            font-size: 60px;
+            letter-spacing: 6px;
+          }
+        }
+
+        .day-paragraph {
+          width: 100%;
+          height: 96px;
+          // background-color: lawngreen;
+
+          p {
+            font-size: 16px;
+            letter-spacing: 1.6px;
+            font-family: "Gill Sans";
+          }
+        }
+      }
+    }
+
+    .book-now-button {
+      width: 133px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: $accent-color;
+      margin: 4px auto 100px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Gill Sans";
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .tour-page {
+    .tour-page-content {
+      margin: 20px;
+      // background-color: chartreuse;
+
+      .tour-page-row {
+        display: flex;
+        flex-direction: column;
+        .country-image {
+          width: 100%;
+          height: 400px;
+          margin-bottom: 40px;
+        }
+      }
+      .day-container {
+        .day {
+          margin-bottom: 150px;
+        }
+      }
+    }
+  }
+}

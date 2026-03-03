@@ -1,0 +1,36 @@
+.tour-page {
+  //   background-color: olivedrab;
+
+  .tour-page-content {
+    // background-color: khaki;
+
+    .australia-tour-header {
+      background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .australia-page-row {
+      .australia-image1 {
+        background-image: url(../images/aus-tour-01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .australia-image2 {
+        background-image: url(../images/aus-tour-02.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .australia-image3 {
+        background-image: url(../images/aus-tour-03.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.tour-page {
+  //   background-color: olivedrab;
+
+  .tour-page-content {
+    // background-color: khaki;
+
+    .uae-tour-header {
+      background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tour-09.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .uae-page-row {
+      .uae-image1 {
+        background-image: url(../images/uae-tour-01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .uae-image2 {
+        background-image: url(../images/uae-tour-02.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .uae-image3 {
+        background-image: url(../images/uae-tour-03.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}

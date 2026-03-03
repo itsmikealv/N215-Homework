@@ -1,0 +1,134 @@
+.tours {
+  // background-color: mediumspringgreen;
+
+  .tours-content {
+    // background-color: chocolate;
+    max-width: $tours-content-max-width;
+    margin: 142px auto 100px auto;
+
+    .tours-header {
+      height: 200px;
+      width: 100%;
+      // background-color: violet;
+      background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tours-header.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 48px;
+
+      .tours-header-text {
+        color: #fff;
+        font-size: 60px;
+        font-family: "ProximaExtraCondensed";
+        letter-spacing: 6px;
+        text-transform: uppercase;
+      }
+    }
+
+    .tours-promo-container {
+      width: 84%;
+      margin: 0 auto;
+      // background-color: teal;
+
+      .tours-row1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 55px;
+        .promo-image-box-1 {
+          background-image:
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../images/tour-01.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        .promo-image-box-2 {
+          background-image:
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../images/tour-02.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        .promo-image-box-3 {
+          background-image:
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../images/tour-03.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      }
+      .tours-row2 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 55px;
+        .promo-image-box-4 {
+          background-image:
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../images/tour-04.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        .promo-image-box-5 {
+          background-image:
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../images/tour-05.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        .promo-image-box-6 {
+          background-image:
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../images/tour-06.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      }
+      .tours-row3 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .promo-image-box-7 {
+          background-image:
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../images/tour-07.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        .promo-image-box-8 {
+          background-image:
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../images/tour-08.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        .promo-image-box-9 {
+          background-image:
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../images/tour-09.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      }
+      @media screen and (max-width: 980px) {
+          .promo-image-box {
+            width: 100%;
+            margin: 0px 0px 15px 0px;
+          }
+        }
+    }
+  }
+}

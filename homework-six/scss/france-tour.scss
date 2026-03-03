@@ -1,0 +1,36 @@
+.tour-page {
+  //   background-color: olivedrab;
+
+  .tour-page-content {
+    // background-color: khaki;
+
+    .france-tour-header {
+      background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tour-05.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .france-page-row {
+      .france-image1 {
+        background-image: url(../images/france-tour-01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .france-image2 {
+        background-image: url(../images/france-tour-02.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .france-image3 {
+        background-image: url(../images/france-tour-03.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
