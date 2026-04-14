@@ -1,0 +1,16 @@
+{
+  "name": "homework-nine",
+  "version": "1.0.0",
+  "description": "https://in-info-web4.luddy.indianapolis.iu.edu/~mikealva/N215/homework-eight/",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "serve": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w --no-source-map"
+  },
+  "dependencies": {
+    "sass": "^1.99.0"
+  }
+}
